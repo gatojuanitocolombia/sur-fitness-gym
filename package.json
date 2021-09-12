@@ -1,0 +1,35 @@
+{
+  "name": "sur-fitness",
+  "version": "1.0.0",
+  "description": "web application for a fitness gym",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barcasnerd/sur-fitness-gym.git"
+  },
+  "keywords": [
+    "surfitness",
+    "sur-fitness",
+    "sur",
+    "fitness",
+    "gym",
+    "fitness",
+    "ponedera"
+  ],
+  "author": "@barcasnerd",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/barcasnerd/sur-fitness-gym/issues"
+  },
+  "homepage": "https://github.com/barcasnerd/sur-fitness-gym#readme",
+  "dependencies": {
+    "ejs": "^2.5.8",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.12"
+  }
+}
