@@ -14,7 +14,8 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
 // middlewares
-
+app.use(morgan('dev'));
+app.use(express.urlencoded({ extended: false }));
 
 // rutas de entrada
 app.use('/', landingPage);
